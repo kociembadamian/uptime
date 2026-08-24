@@ -5,17 +5,23 @@ repo: uptime # The name of this repository
 sites:
   - name: ADR apka
     url: https://app.kocie.mba
+    icon: https://app.kocie.mba/icon-logo-512.png
   - name: ADR EDI
     url: https://edi.kocie.mba
+    icon: https://edi.kocie.mba/icon-logo-512.png
   - name: TACHO app
     url: https://tacho.kocie.mba
+    icon: https://tacho.kocie.mba/icon-logo-512.png
 
 status-website:
   baseUrl: /uptime
-  logoUrl: https://app.kocie.mba/icon-logo-512.png
+  logoUrl: https://kocie.mba/logo_kociemba.png
   name: kocie.mba
-  introTitle: "**kocie.mba** — status naszych aplikacji na żywo."
-  introMessage: Monitorujemy dostępność ADR apki, ADR EDI oraz TACHO app w czasie rzeczywistym, bezpośrednio przez GitHub Actions — bez żadnych zewnętrznych, płatnych usług monitorujących. Historia i aktualny status są w pełni jawne i publiczne.
+  introTitle: "**[kocie.mba](https://kocie.mba)** — sprawdzanie dostępności usług w naszym ekosystemie / checking the availability of our services."
+  introMessage: |
+    Tutaj na bieżąco widać, czy nasze aplikacje działają. Dane mogą pojawić się z kilkuminutowym opóźnieniem, a chwilowe przerwy w dostępie zwykle wynikają z awarii po stronie naszych dostawców infrastruktury — [OVH](https://www.status-ovhcloud.com) lub [Cloudflare](https://www.cloudflarestatus.com) — a nie z samych aplikacji.
+
+    This page shows whether our apps are up, in real time. Data can lag a few minutes behind, and any downtime you see here often comes from our infrastructure providers — [OVH](https://www.status-ovhcloud.com) or [Cloudflare](https://www.cloudflarestatus.com) — rather than the apps themselves.
   navbar:
     - title: Status
       href: /
