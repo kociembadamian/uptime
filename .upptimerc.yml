@@ -11,19 +11,27 @@ sites:
     url: https://tacho.kocie.mba
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /uptime
+  logoUrl: https://app.kocie.mba/icon-logo-512.png
+  name: kocie.mba
+  introTitle: "**kocie.mba** — status naszych aplikacji na żywo."
+  introMessage: Monitorujemy dostępność ADR apki, ADR EDI oraz TACHO app w czasie rzeczywistym, bezpośrednio przez GitHub Actions — bez żadnych zewnętrznych, płatnych usług monitorujących. Historia i aktualny status są w pełni jawne i publiczne.
   navbar:
     - title: Status
       href: /
+    - title: kocie.mba
+      href: https://kocie.mba
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+  css: |
+    :root {
+      --body-background-color: #f3f5f9;
+      --body-text-color: #10151f;
+      --card-background-color: #fbfcfe;
+      --nav-background-color: #fbfcfe;
+      --nav-border-bottom-color: rgba(16, 21, 31, 0.08);
+    }
+    a, .navbar-title { color: #017ffe !important; }
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
