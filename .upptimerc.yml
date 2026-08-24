@@ -19,9 +19,9 @@ status-website:
   name: kocie.mba
   introTitle: "**[kocie.mba](https://kocie.mba)** — sprawdzanie dostępności usług w naszym ekosystemie / checking the availability of our services."
   introMessage: |
-    Tutaj na bieżąco widać, czy nasze aplikacje działają. Dane mogą pojawić się z kilkuminutowym opóźnieniem, a chwilowe przerwy w dostępie zwykle wynikają z awarii po stronie naszych dostawców infrastruktury — [OVH](https://www.status-ovhcloud.com) lub [Cloudflare](https://www.cloudflarestatus.com) — a nie z samych aplikacji.
+    Dane mogą pojawić się z kilkuminutowym opóźnieniem, a chwilowe przerwy w dostępie zwykle wynikają z awarii po stronie naszych dostawców infrastruktury — [OVH](https://www.status-ovhcloud.com) lub [Cloudflare](https://www.cloudflarestatus.com) — a nie z samych aplikacji.
 
-    This page shows whether our apps are up, in real time. Data can lag a few minutes behind, and any downtime you see here often comes from our infrastructure providers — [OVH](https://www.status-ovhcloud.com) or [Cloudflare](https://www.cloudflarestatus.com) — rather than the apps themselves.
+    Data can lag a few minutes behind, and any downtime you see here often comes from our infrastructure providers — [OVH](https://www.status-ovhcloud.com) or [Cloudflare](https://www.cloudflarestatus.com) — rather than the apps themselves.
   navbar:
     - title: Status
       href: /
