@@ -4,10 +4,10 @@
     "url": "https://app.kocie.mba",
     "icon": "https://app.kocie.mba/icon-logo-512.png",
     "slug": "adr-apka",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 836,
@@ -15,16 +15,18 @@
     "timeWeek": 874,
     "timeMonth": 816,
     "timeYear": 836,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-10-14": 1
+    }
   },
   {
     "name": "ADR EDI",
     "url": "https://edi.kocie.mba",
     "icon": "https://edi.kocie.mba/icon-logo-512.png",
     "slug": "adr-edi",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -33,14 +35,16 @@
     "timeWeek": 693,
     "timeMonth": 639,
     "timeYear": 666,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-10-14": 0
+    }
   },
   {
     "name": "TACHO app",
     "url": "https://tacho.kocie.mba",
     "icon": "https://tacho.kocie.mba/icon-logo-512.png",
     "slug": "tacho-app",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
